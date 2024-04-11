@@ -1,0 +1,15 @@
+---
+
+import { Image } from 'astro:assets';
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+  <body class="flex w-screen h-screen p-5">
+    <div class="flex flex-col lg:flex-row p-5 justify-center items-center">
+      <div class="p-5 lg:w-3/4 w-full"><Image src="/cripto.jpeg" alt="" width="1080 " height="677"  /></div>
+
+      <div class="w-full lg:w-1/4 p-5"><h3 class="text-center text-2xl">Informacion</h3><p>Lamentablemente el proyecto fracaso por la caida de las criptomonedas en su tiempo y nunca logro despegar :-(</p></div>
+    </div>
+  </body>
+</BaseLayout>

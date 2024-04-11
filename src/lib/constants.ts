@@ -7,12 +7,12 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
-  mail: 'mailto:camiloplaza3@gmail.com',
-  instagram: 'https://www.instagram.com/ancap.tattoo/',
-  medium: 'https://ladvace.medium.com/',
-  discord: 'https://discordapp.com/users/163300027618295808',
+  github: 'https://github.com/carlosjohancj',
+  linkedin: 'https://www.linkedin.com/in/carlos-johan-montilva-moreno-b30436236/',
+  mail: 'carlosjohancj@hotmail.com',
+  instagram: 'https://www.instagram.com/carlosjohan_cj/',
+ // medium: 'https://ladvace.medium.com/',
+ // discord: 'https://discordapp.com/users/163300027618295808',
 }
 
 // Global
@@ -37,8 +37,8 @@ export const BLOG: Page = {
 
 // Projects Page
 export const PROJECTS: Page = {
-  TITLE: 'Projects',
-  DESCRIPTION: 'Recent projects I have worked on.',
+  TITLE: 'Proyectos',
+  DESCRIPTION: 'Proyectos y trabajos recientes.',
 }
 
 // Search Page
@@ -50,111 +50,87 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
-    title: 'Computer Science',
-    institution: 'Universidad Central',
-    link: 'https://www.ucentral.edu.co/',
-    date: '2019 - 2027',
+    title: '...',
+    institution: 'Claseflix',
+    link: 'https://claseflix.com/',
+    date: '2024 - 2024',
   },
+  {
+    title: '...',
+    institution: 'Ingeniería Digital',
+    link: 'https://www.cubiwelt.com/',
+    date: '2021 - 2022',
+  },
+
   {
     title: '...',
     institution: 'Platzi',
-    link: 'https://platzi.com/',
-    date: '2018 - 2022',
-  },
-  {
-    title: '...',
-    institution: 'Udemy',
-    link: 'https://www.udemy.com/',
-    date: '2018 - 2022',
+    link: 'https://www.platzi.com/',
+    date: '2021 - 2022',
   },
   {
     title: '...',
     institution: 'Youtube',
     link: 'https://www.youtube.com/@midulive',
-    date: '2018 - 2022',
+    date: '2022 - 2024',
   },
   {
-    title: 'Tattoo Artist',
-    institution: 'Tattoo Academy',
-    link: 'https://www.instagram.com/tattoodcacademy/',
-    date: '2024 - 2025',
+    title: '...',
+    institution: 'Youtube',
+    link: 'https://www.youtube.com/@soydalto',
+    date: '2022 - 2024',
   },
-]
+
+  {
+    title: '...',
+    institution: 'Youtube',
+    link: 'https://www.youtube.com/@HolaMundoDev',
+    date: '2022 - 2024',
+  },
+  {
+    title: '...',
+    institution: 'Youtube',
+    link: 'https://www.youtube.com/@mouredev',
+    date: '2022 - 2024',
+  },]
 
 export const EXPERIENCE = [
   {
-    company: 'Straico',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software Engineer',
-    start: '2021',
-    link: 'https://straico.com/',
-    end: 'Current',
+    company: 'Cripto Flight Manager',
+    location: 'Caracas, Venezuela',
+    position: 'Frontend Developer',
+    start: '2020',
+    link: '/cripto/',
+    end: '2022',
     tasks: [
-      'Integration IA services with react and tailwind css',
-      'Development and build of DB with mongoDB',
+      'Integration Web3 services with javascript and html',
+      'Development and build of web page with Js, Html, Css',
     ],
   },
   {
-    company: 'Spot2',
-    location: 'Mexico City, Mexico',
+    company: 'Gobernacion del Estado Táchira',
+    location: 'San Cristobal, Venezuela',
     position: 'Software Engineer',
-    link: 'https://spot2.mx/',
-    start: '2021',
-    end: 'Current',
+    link: 'https://www.tachira.gob.ve/',
+    start: '2022',
+    end: '2023',
     tasks: [
-      'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-      'Development map with the use of Google Maps API',
-      'Development internal platform with the use of React, Redux, and Material UI',
-      'Testing and debugging',
+      'Mantenimiento y actualizacion de base de datos y codigo del sistema sirta con php y postgresql',
+      'Apoyo en el desarrollo del sistema de asistencia de personal con php y mysql',
+      'Planificacion y desarrollo del sistema de recaudacion tributaria (no culminado por motivo de renuncia)',
+      'apoyo logistico y de mantenimiento en diferentes sistemas y base de datos con mis compañeros de area',
     ],
   },
   {
-    company: 'Imaginamos',
-    link: 'https://imaginamos.com/',
-    location: 'Bogotá D C, Colombia',
-    position: 'Frontend developer',
-    start: '2021',
-    end: '2021',
+    company: 'Freelance',
+    link: '/',
+    location: 'San Cristobal, Venezuela',
+    position: 'Web Developer and Graphic Desing',
+    start: '2023',
+    end: 'Current',
     tasks: [
       'Development of the Imaginamos platform with the use of React, Redux, and Material UI',
       'Work in ETB project with the use of React, Redux, and Material UI',
-    ],
-  },
-  {
-    company: 'INETUM',
-    location: 'Bogotá D C, Colombia',
-    position: 'Frontend developer',
-    start: '2021',
-    link: 'https://www.inetum.com/es',
-    end: '2021',
-    tasks: [
-      'Support in the QA area and bug review',
-      'Use of SCRUM methodology',
-      'Claro projects with the use of frameworks and libraries such as react and angular',
-      'Use of redux toolkit as aproposal which allowed a shorter development time when using this tool',
-    ],
-  },
-  {
-    company: 'S I G',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2021',
-    end: '2021',
-    tasks: [
-      'Development of a dashboard with react admin and chartjs for managing and entering information',
-    ],
-  },
-  {
-    company: 'BOOKII',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2019',
-    end: '2021',
-    tasks: [
-      'Productive collaborationwiththebackendteamforthecreationofthe conversationalclubs',
-      'Effective coding of conversational clubs following design guide lines and using the Redux statemanager',
-      'Creation of the Bookii page in Spanish and change of texts in cms',
-      'Generation of static posts using Gatsby and the Contentful cms for the Bookii blog',
     ],
   },
 ]

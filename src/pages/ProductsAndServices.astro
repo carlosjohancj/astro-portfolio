@@ -1,0 +1,66 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<BaseLayout>
+  <div class="flex flex-col w-full justify-center items-center">
+    <h2 class="text-5xl FontsVogue mb-4 mt-5">Productos</h2>
+    <div class="grid gap-6 grid-cols-1 lg:grid-cols-4 w-full">
+      <Card
+        colSpan="grid-cols-1"
+        title="Menu y Reservasiones Para Restaurant"
+        href="#"
+      >
+        <p class="text-right text-amber-700"><b> En Proceso</b></p>
+        <p class="mt-2">
+          Un sistema que Gestiona las mesas de un restaurant y facilita un menu
+          digital para el cliente
+        </p></Card
+      >
+      <Card
+        colSpan="grid-cols-1"
+        title="Sistema de gestion de entradas y mercancias de un estadio"
+        href="#"
+        ><p class="text-right text-red-700"><b>Pronto</b></p>
+        <p class="mt-2">
+          Un sistema pensado para ventas de bebidas y snacks dentro de un
+          estadio usando la entrada como una especie de tarjeta de pago con
+          recarga online y fisica ademas de vender la entrada y contabilizar las
+          ganancias brinda a fanaticos e hinchas un status
+        </p></Card
+      >
+      <Card colSpan="grid-cols-1" title="Sistema de gestion de ganado" href="#"
+        ><p class="text-right text-red-700"><b>Pronto</b></p>
+        <p class="mt-2">
+          Sistema agricola que ayuda con la contabilidad compra, venta y
+          mantenimiento de ganado en la segunda fase de desarrollo se agregaran
+          contabilidad de ingresos por productos lacteos
+        </p></Card
+      >
+      <Card
+        colSpan="grid-cols-1"
+        title="Sistema de gestion de empleados"
+        href="#"
+        ><p class="text-right text-red-700"><b>Pronto</b></p>
+        <p class="mt-2">
+          sistema que lleva registro de la entrada y salida de empleados,
+          incidencias, trabajo extra, producción, tiempo de servicio y genera
+          carnets.
+        </p></Card
+      >
+      <Card colSpan="grid-cols-1" title="Landing Page" href="#"
+        ><p class="text-right text-green-700"><b>Listos</b></p>
+        <p class="mt-2">
+          Sistema agricola que ayuda con la contabilidad compra, venta y
+          mantenimiento de ganado en la segunda fase de desarrollo se agregaran
+          contabilidad de ingresos por productos lacteos
+        </p>
+      </Card>
+    </div>
+    <div class="flex flex-row">
+      <h2 class="text-5xl FontsVogue mb-4 mt-5">Servicios</h2>
+      <div class="grid grid-cols-1 gap-1 lg:grid-cols-5 lg:gap-5"></div>
+    </div>
+  </div>
+</BaseLayout>
